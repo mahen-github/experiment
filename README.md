@@ -9,4 +9,4 @@ A generic, maven-based, scala (or java) project template, with *very* basic conf
 * Scala test example
 * Logback
 * Specs2
-# spark-scala-maven-template
+# experiment

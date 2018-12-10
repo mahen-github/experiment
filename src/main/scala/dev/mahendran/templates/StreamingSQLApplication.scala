@@ -22,6 +22,7 @@ object StreamingSQLApplication extends App {
     .builder().config(sparkConf).appName("Mahendran-SQLStreaming-APP")
     .getOrCreate()
 
+
     //To convert RDD to DFs
   import spark.implicits._
 
@@ -31,7 +32,7 @@ object StreamingSQLApplication extends App {
   spark.conf.set("spark.sql.shuffle.partitions", 6)
   spark.conf.set("spark.executor.memory", "2g")
 
-  import org.apache.spark.sql._
+
   ssc.start()
   ssc.awaitTermination()
 }
