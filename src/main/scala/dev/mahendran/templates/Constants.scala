@@ -24,5 +24,6 @@ object Constants {
 
   final val output_ROOT = "/tmp/mahendran_output"
   final val output_WC = output_ROOT + "/wordcount"
+  final val output_Population = output_ROOT + "/population"
   final val output_emp_sal_joined = output_ROOT + "/employee_sal_joined"
 }
